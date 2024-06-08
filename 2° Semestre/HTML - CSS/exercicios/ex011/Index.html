@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas e Audios</h1>
+    <h2>Imagens</h2>
+    <p>Veja as imagens dinamicas diminuindo a janela do seu navegador!</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h2>Audios</h2>
+    <p>Colocando áudios no HTML</p>
+    <dl>
+        <dt>Audio que carrega e toca sozinho.</dt>
+        <!--Autoplay nao pega-->
+        <dd><audio src="audios/happy-mistake.mp3"preload="auto"controls autoplay loop ></audio></dd>
+        <dt>Audio que carrega apenas quando clicar nele</dt>
+        <dd><audio src="audios/guanacast-33.mp3" preload="none" controls></audio></dd>
+    </dl>
+    <!--Tipos de audio são mp3, ogg, wav -->
+     
+</body>
+</html>
