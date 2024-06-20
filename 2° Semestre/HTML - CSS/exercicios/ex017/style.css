@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body{
+    background-color:aliceblue;
+    font: normal lighter 1em 'Arial'
+}
+
+h1{
+    color:darkblue;
+}
+
+#principal{
+    background-color: blueviolet;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: blue;
+}
+
+.topico{
+    text-align:right ;
+    font-style:italic;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.basico{
+    color: green;
+    text-align: left;
+}
+
+.intermediario{
+    color: yellow;
+    
+    text-align: center;
+}
+
+.avancado{
+    color: red;
+    text-align: right;
+}
