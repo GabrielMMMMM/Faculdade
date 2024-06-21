@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Aqui faz com que os elementos sumam e dps aparecam o mouse passando em cima */
+div{
+    width: 180px;
+}
+div > a{
+    display: none;
+}
+div:hover>a{
+    display: block;
+    color: red;
+}
+
+/* Aqui add as coisas no elemento */
+.naoespecial::before{
+    content: "\\\\\\\\";
+    font-weight: bolder;
+}
+
+.naoespecial::after{
+    content: "/////";
+    font-weight: bolder;
+}
+
+.especial::before{
+    content: ">>>> ";
+
+}
+.especial::after{
+    content: "<<<<";
+}
+
+
