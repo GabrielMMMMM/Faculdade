@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Folheia</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: linear-gradient(
+          to right,
+          #1a324c,
+          #3d5876,
+          #6d86a1,
+          #acbbcb,
+          #c1dbf6
+        );
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #000000;
+      }
+      main {
+        background-color: white;
+        width: 800px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 5px 5px 150px #e891063f;
+      }
+      .header {
+        font-family: "Anton";
+        background-color: #0d0d0d;
+        color: #9f6f36;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+      .header h1 {
+        margin: 0;
+      }
+      .header img {
+        margin-left: 50px; /
+      }
+      .header ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .header li {
+        margin: 0 15px;
+      }
+      .header a {
+        color: #9f6f36;
+        text-decoration: none;
+      }
+      .header a:hover {
+        color: #e89106;
+      }
+      #h2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      .sp{
+        text-align: center;
+      }
+      .footer {
+        background-color: #0d0d0d;
+        color: #9f6f36;
+        padding: 20px 0;
+      }
+      .main-content {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 150px #e891063f;
+      }
+      .main-content img {
+        max-width: 100%;
+        height: auto;
+      }
+      h2 {
+        font-family: "Anton", sans-serif; /* Prioriza Anton e depois fallback para sans-serif */
+      }
+      p {
+        margin-top: 20px;
+        font-family: "Comfortaa", serif;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header py-1">
+      <h1 class="text-ali">
+        <img src="img/bitmap3 2.png" alt="logo" />
+      </h1>
+      <ul>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="formulario/index.html">Cadastro</a></li>
+        <li><a href="#">Contatos</a></li>
+        <li><a href="#">Download</a></li>
+      </ul>
+    </header>
+    <main class="main-content py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="text-center">Venha ler com a gente!</h2>
+            <p>
+              Bem-vindo ao futuro da gestão de bibliotecas! Estamos orgulhosos
+              de apresentar o nosso novo aplicativo de gerenciamento de
+              biblioteca, uma solução inovadora projetada para simplificar e
+              otimizar a administração de bibliotecas de todos os tamanhos. Com
+              uma interface intuitiva e funcionalidades avançadas, nosso app é a
+              ferramenta perfeita para bibliotecários, estudantes e amantes de
+              livros.
+            </p>
+            <img src="img/pessoa lendo.avif" alt="pessoa lendo" />
+            <h2 id="h2">Como Funciona o Folheia?</h2>
+            <h3>Para as Bibliotecas</h3>
+            <p>
+              Transforme a gestão da sua biblioteca com nosso aplicativo
+              inovador. Projetado para simplificar a administração, nosso app
+              oferece uma interface intuitiva que permite adicionar e organizar
+              livros de forma eficiente. Insira facilmente detalhes como título,
+              autor, ISBN e gênero, além de categorizar e etiquetar cada livro
+              para uma organização ainda melhor. O gerenciamento de empréstimos
+              nunca foi tão simples: acompanhe a data de empréstimo e devolução,
+              monitore os status dos livros em tempo real e envie notificações
+              automáticas para lembrar os usuários sobre prazos de devolução,
+              ajudando a minimizar atrasos.
+            </p>
+            <h3>Para os Usuários</h3>
+            <p>
+              Descubra uma nova maneira de interagir com a sua biblioteca com
+              nosso aplicativo de gerenciamento. Projetado para oferecer
+              conveniência e facilidade de uso, nosso app permite que você
+              encontre e acesse livros de forma rápida e eficiente. Com uma
+              interface amigável, você pode pesquisar por título, autor, gênero
+              ou palavras-chave, localizando qualquer livro em segundos.
+            </p>
+            <h2>Conheça nosso APP!</h2>
+            <p>
+              Aponte seu Celular para o QR code abaixo ou use esse
+              <a
+                href="https://www.figma.com/proto/0MLSacVkC2iXO8IWA1Gwwg/Joseny-2.0?node-id=30-3&t=aRJPktayM21zWtFT-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=30%3A3&show-proto-sidebar=1"
+                target="next"
+                >link</a
+              >
+              e tenha uma prévia do nosso APP!
+            </p>
+            <img src="img/Qr code apresentacao .png" alt="QR code" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer py-3">
+      <div class="container text-center">
+        <p class="sp">&copy; 2024 Folheia</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

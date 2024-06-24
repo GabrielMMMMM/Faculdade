@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Folheia</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-image: linear-gradient(to right, #1a324c, #3d5876, #6d86a1, #acbbcb, #c1dbf6);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #000000;
+    }
+    main {
+      background-color: white;
+      width: 800px;
+      padding: 10px;
+      margin: auto;
+      border-radius: 20px;
+      box-shadow: 5px 5px 150px #e891063f;
+      text-align: center;
+    }
+    .header {
+      font-family: "Anton";
+      background-color: #0d0d0d;
+      color: #9f6f36;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .header img {
+      margin-left: 50px;
+    }
+    .header ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .header li {
+      margin: 0 15px;
+    }
+    .header a {
+      color: #9f6f36;
+      text-decoration: none;
+    }
+    .header a:hover {
+      color: #e89106;
+    }
+    #h2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .sp {
+      text-align: center;
+    }
+    .footer {
+      background-color: #0d0d0d;
+      color: #9f6f36;
+      padding: 20px 0;
+    }
+    .main-content {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 150px #e891063f;
+    }
+    .main-content img {
+      max-width: 100%;
+      height: auto;
+    }
+    h2 {
+      font-family: "Anton", sans-serif; 
+    }
+    p {
+      margin-top: 20px;
+      font-family: "Comfortaa", serif;
+      text-align: justify;
+    }
+    .resposta {
+      color: red;
+      text-align: left;
+      margin-left: 50px;
+    }
+    form p {
+      text-align: left;
+      margin-left: 50px; 
+    }
+    input {
+      width: 300px;
+      
+    }
+    input[type="submit"] {
+      width: 150px; 
+    }
+    h3#resposta {
+      margin-top: 20px; 
+    }
+    h2{
+        margin-bottom: 20px;
+    }  
+    </style>
+</head>
+<body>
+  <header class="header py-1">
+    <h1 class="text-ali">
+      <img src="img/bitmap3 2.png" alt="logo" />
+    </h1>
+    <ul>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Cadastro</a></li>
+      <li><a href="#">Contatos</a></li>
+      <li><a href="#">Download</a></li>
+    </ul>
+  </header>
+  <main class="main-content py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2>Cadastre-se</h2> <hr>
+          <form>
+            <p>Nome</p> 
+            <input id="nome" type="text" placeholder="Gabriel Marcos Lopes Santos">
+            <p class="resposta" id="rNome"></p>
+            <p>Email</p>
+            <input id="email" type="text" placeholder="gabrielmmarcos1@gmail.com">
+            <p class="resposta" id="rEmail"></p>
+            <p>Senha</p>
+            <input id="senha" type="text" placeholder="12345678">
+            <p class="resposta" id="rSenha"></p>
+            <p>Confirma senha</p>
+            <input id="cSenha" type="text" placeholder="12345678">
+            <p class="resposta" id="rCsenha"></p>
+            <input type="submit" value="Enviar">
+            <h3 id="resposta"></h3>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer py-3">
+    <div class="container text-center">
+      <p class="sp">&copy; 2024 Folheia</p>
+    </div>
+  </footer>
+  <script src="js.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
